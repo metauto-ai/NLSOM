@@ -56,7 +56,7 @@ This project is the **technical extension** for the original [NLSOM paper](https
 
 
 <div align=center>
-    <img src="https://private-user-images.githubusercontent.com/64179323/241748085-fed10cb8-a7b7-4103-a480-0f0048cb36cc.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk3NzAyMTAsIm5iZiI6MTcxOTc2OTkxMCwicGF0aCI6Ii82NDE3OTMyMy8yNDE3NDgwODUtZmVkMTBjYjgtYTdiNy00MTAzLWE0ODAtMGYwMDQ4Y2IzNmNjLmpwZWc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYzMFQxNzUxNTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wYTRiMjhmZWRjYTZkZjc5NWYxOTMxNzdiMzk2MGU1N2Y5MTdjMjYxOGNlMzkwNmNiNzU1ZGViYmFmYTBmMWQ2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.hmzxKUCLjpMfWARiyDcoNeYga4COakwZaJVRKKAPvM8" width="500" height="535">
+    <img src="assets/ui.jpeg" width="500" height="535">
 </div>
 
 
@@ -186,7 +186,7 @@ streamlit run app.py
 <details>
     <summary>
  Demo 1: Model Collaboration (Multimodal Agents) 👈 <b>[CLICK]</b></summary>
-    <img src="https://private-user-images.githubusercontent.com/64179323/324246338-046d0283-ff30-43ed-bc87-7a561b6b2ac3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQzMzEyNzQsIm5iZiI6MTcxNDMzMDk3NCwicGF0aCI6Ii82NDE3OTMyMy8zMjQyNDYzMzgtMDQ2ZDAyODMtZmYzMC00M2VkLWJjODctN2E1NjFiNmIyYWMzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDI4VDE5MDI1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBjY2NjOTcwOGExY2JkNmE0ZmJkN2QzOWMyNDZmM2M1ZTZhYmE2ODIzZTYyM2M3ZDQ4NDdhZTU2ZDdlZThhYWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.6iFnvdaMtLvClELaCrb8gRteMtUShH-XgGpUKbxBLEs">
+    <img src="assets/vqa_instance.png">
     <p>
         <ul>
             <li><b>🔴 User:</b> VQA question: What century were these invented in?
@@ -252,7 +252,7 @@ streamlit run app.py
 <details>
     <summary>
 Demo 2: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLICK]</b></summary>
-    <img src="https://private-user-images.githubusercontent.com/64179323/324246245-6156655d-b4a3-4c2f-811d-a9de119699cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQzMzEyNzQsIm5iZiI6MTcxNDMzMDk3NCwicGF0aCI6Ii82NDE3OTMyMy8zMjQyNDYyNDUtNjE1NjY1NWQtYjRhMy00YzJmLTgxMWQtYTlkZTExOTY5OWNmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDI4VDE5MDI1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMxNDI4M2ZhMWNlMjVhNmZkNjdhNDgwYTA1ZTBlMmExOTk2OGEyODhiZTY4YzIzZWI2YWQ4YTNkYjVlMThhYmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.oVtGEmAiz-UqdtHn6arhgec5RhhnB3vTafgU_p3RI9Y" alt="some_text">
+    <img src="assets/api_head.png" alt="some_text">
     <p>
         <ul>
             <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential. </li>
@@ -319,7 +319,7 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 <details open>
     <summary>
 Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
-    <img src="https://private-user-images.githubusercontent.com/64179323/324246240-bf987ce3-64f4-4ac8-b7e6-7b78b012c577.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3MDE4OTYsIm5iZiI6MTcxMzcwMTU5NiwicGF0aCI6Ii82NDE3OTMyMy8zMjQyNDYyNDAtYmY5ODdjZTMtNjRmNC00YWM4LWI3ZTYtN2I3OGIwMTJjNTc3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIxVDEyMTMxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkwZDVmM2E3ZWFkYWZmZWNmNzczOTUyNDAyN2I1MzdiYjNmZDA2Mzk4MjMwMTZiMjk4NTQ1YWYyM2YzNzBjYWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.YOIwvJ_xNjrsqxWB5wDeVjm-vKi081H-k8oU_SMNyzo" alt="some_text">
+    <img src="assets/role_play_head.png" alt="some_text">
     <p>
         <ul>
             <li><b>🔴 User:</b> If you find yourself in the Three Kingdoms period, what would be the most effective approach to defeat Cao Cao?</li>
@@ -388,7 +388,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
  Demo 4: Society of Mind (Automatical Task-Solving)</summary>
       <p>
         <ul>
-            <li>🔴 <b>User:</b> Provide an image. <br> <img src="https://private-user-images.githubusercontent.com/64179323/241741407-e8ac4340-996d-4ee2-9830-58ecddfe1a98.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3MDE2NTQsIm5iZiI6MTcxMzcwMTM1NCwicGF0aCI6Ii82NDE3OTMyMy8yNDE3NDE0MDctZThhYzQzNDAtOTk2ZC00ZWUyLTk4MzAtNThlY2RkZmUxYTk4LmpwZWc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQyMVQxMjA5MTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMjU1ZTYyNTNiYzlhNzQwNmIxNGZiOWRlYzdiNzdmOWMwNWIyYjEyZDY1MTJhYWQ4N2Q3NjgyYmNkMzc2NmMyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.VKBbtV4qowTnmvZVY42OWr0sgCevvcSPM1mwjAwxhCA" width="200px" height="243px">
+            <li>🔴 <b>User:</b> Provide an image. <br> <img src="assets/e1.jpeg" width="200px" height="243px">
         </ul>
     </p>
     <p>
@@ -409,7 +409,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>     
     <p>
         <ul>
-            <li>🟢 <b>DDColor:</b>  <br> <img src="https://private-user-images.githubusercontent.com/64179323/241741429-743339b4-d78c-4e9d-b394-6461addfe1f9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3MDE2NTQsIm5iZiI6MTcxMzcwMTM1NCwicGF0aCI6Ii82NDE3OTMyMy8yNDE3NDE0MjktNzQzMzM5YjQtZDc4Yy00ZTlkLWIzOTQtNjQ2MWFkZGZlMWY5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIxVDEyMDkxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBiMDIyMzJiNGJhZTMwNzk0MTQwNTI5ZjUzYTViNmEyMThmYjg2NWIzYjQ5MTZkNDljNDhhOTUzYWRjODRhNzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.HsVAaY0y4x5B4rrekaVKhKKIcGO7XbwKsSUtUvvBg1s" width="200px" height="243px" autoplay> </li>
+            <li>🟢 <b>DDColor:</b>  <br> <img src="assets/e2.png" width="200px" height="243px" autoplay> </li>
     </li>
         </ul>
     </p>  
