@@ -183,7 +183,7 @@ streamlit run app.py
 
 #### 1. Focus more on Mindstorm
 
-<details>
+<details open>
     <summary>
  Demo 1: Model Collaboration (Multimodal Agents) 👈 <b>[CLICK]</b></summary>
     <img src="assets/vqa_instance.png">
@@ -249,7 +249,7 @@ streamlit run app.py
 </details>
 
 
-<details>
+<details open>
     <summary>
 Demo 2: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLICK]</b></summary>
     <img src="assets/api_head.png" alt="some_text">
