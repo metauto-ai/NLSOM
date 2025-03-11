@@ -2,7 +2,6 @@
 ![overview](assets/nlsom.svg)
 > What magical trick makes us intelligent?  The trick is that there is no trick.  The power of intelligence stems from our vast diversity, not from any single, perfect principle. — Marvin Minsky, The Society of Mind, p. 308
 
-[![KAUST-AINT](https://cemse.kaust.edu.sa/themes/custom/bootstrap_cemse/logo.svg)](https://cemse.kaust.edu.sa/ai)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2305.17066.pdf)
 [![GitHub license](https://img.shields.io/badge/License-MIT-orange.svg)](https://github.com/mczhuge/NLSOM/blob/main/LICENSE)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmczhuge%2FNLSOM&count_bg=%23543DC8&title_bg=%23555555&icon=awesomelists.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
